@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi"
+    app:startDestination="@id/fragment_rating"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/fragment_rating"
+        android:name="com.bobrik.perfectmovie.Fragments.FragmentRating"
+        android:label="fragment_rating"
+        tools:layout="@layout/fragment_rating" />
+    <fragment
+        android:id="@+id/fragment_top"
+        android:name="com.bobrik.perfectmovie.Fragments.FragmentTop"
+        android:label="fragment_top"
+        tools:layout="@layout/fragment_comming" />
+</navigation>

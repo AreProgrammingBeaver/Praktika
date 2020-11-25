@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context=".AboutActivity.AboutActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ImageFilm"
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/TitleFilm"
+        style="@style/MyStyle"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/DescriptionFilm"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ReleaseDateFilm"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/RatingFilm"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+</LinearLayout>
